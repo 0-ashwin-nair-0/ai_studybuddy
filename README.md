@@ -6,6 +6,7 @@
 
 **AI Smart Study Buddy** is an intelligent educational assistant designed to help students learn efficiently, summarize notes, create flashcards, upload PDFs for quick insights, and generate interactive quizzes. Powered by AI, it provides personalized, real-time learning support.
 
+Click on the link to access the tool: https://share.google/Cw1FiYFhcMqyuNS23 
 ---
 
 ## 🚀 Features
