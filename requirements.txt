@@ -7,3 +7,5 @@ faiss-cpu
 fpdf
 python-dotenv
 google-generativeai
+PyPDF2
+gTTS
