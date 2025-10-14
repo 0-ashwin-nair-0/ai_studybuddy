@@ -7,12 +7,15 @@ import os
 import base64
 import re
 import tempfile
+import os
+from dotenv import load_dotenv
 
-
+load_dotenv()
 # -----------------------------
 # Configure Gemini API
 # -----------------------------
-genai.configure(api_key)  # replace with your key
+api_key = os.getenv("API_KEY")
+genai.configure(api_key)
 model = genai.GenerativeModel("models/gemini-2.5-flash")
 
 # -----------------------------
@@ -712,4 +715,5 @@ elif task == "Interactive Quiz Mode":
                         suggestion_text = safe_generate(suggestion_prompt)
                         if suggestion_text:
                             st.markdown(f"💡 Study Tip: {suggestion_text}")
+
 
