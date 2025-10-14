@@ -1,0 +1,8 @@
+streamlit
+requests
+openai
+transformers
+sentence_transformers
+faiss-cpu
+fpdf
+python-dotenv
