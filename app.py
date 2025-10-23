@@ -10,7 +10,7 @@ import tempfile
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+
 # -----------------------------
 # Configure Gemini API
 # -----------------------------
@@ -715,6 +715,7 @@ elif task == "Interactive Quiz Mode":
                         suggestion_text = safe_generate(suggestion_prompt)
                         if suggestion_text:
                             st.markdown(f"💡 Study Tip: {suggestion_text}")
+
 
 
 
